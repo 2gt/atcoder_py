@@ -16,6 +16,6 @@ def meguru_bisect(ng, ok):
     mid = (ok + ng) // 2
     if is_ok(mid):
       ok = mid
-      else:
-        ng = mid
-        return ok
+    else:
+      ng = mid
+  return ok
